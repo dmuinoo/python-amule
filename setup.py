@@ -10,32 +10,32 @@
 #
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	See the
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# along with this program.	If not, see <http://www.gnu.org/licenses/>.
 
 from distutils.core import setup
 
 setup(
-    name = 'amule',
-    version = '0.2.0',
-    description = 'Python aMule client library',
+	name = 'amule',
+	version = '0.2.1',
+	description = 'Python aMule client library',
 
-    classifiers = [
-        'Development Status :: 2 - Pre-Alpha',
-        'Environment :: Other Environment',
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: GNU General Public License (GPL)',
-        'Operating System :: POSIX :: Linux',
-        'Programming Language :: Python :: 2.6',
-        'Topic :: Communications :: File Sharing'
-    ],
+	classifiers = [
+		'Development Status :: 2 - Pre-Alpha',
+		'Environment :: Other Environment',
+		'Intended Audience :: Developers',
+		'License :: OSI Approved :: GNU General Public License (GPL)',
+		'Operating System :: POSIX :: Linux',
+		'Programming Language :: Python :: 3',
+		'Topic :: Communications :: File Sharing'
+	],
 
-    author = 'Nicolas Joyard',
-    author_email = 'joyard.nicolas@gmail.com',
-    url = 'http://www.mnkey.ney/avhes/',
+	author = 'Nicolas Joyard',
+	author_email = 'joyard.nicolas@gmail.com',
+	url = 'http://www.mnkey.ney/avhes/',
 
-    packages = ['amule']
+	packages = ['amule']
 )
